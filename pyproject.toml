@@ -5,6 +5,7 @@ description = ""
 authors = ["motty.mio2 <motty.mio2@gmail.com>"]
 license = "MIT"
 
+
 [tool.poetry.dependencies]
 python = "^3.7"
 
