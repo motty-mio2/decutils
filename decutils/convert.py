@@ -23,4 +23,7 @@ def float2binary(fltnum: float, sep: str = "None") -> str:
 
 
 def binary2float(binary: str) -> float:
+    if binary.startswith("0b"):
+        binary = binary[2:]
+    binary = binary.replace("_", "").replace(" ", "")
     return hex2float(hex(int(binary, 2)))
