@@ -32,10 +32,6 @@ pip install -U git+https://github.com/motty-mio2/decutils.git@release
 import decutils as du
 m2.float2binary(3.14)
 ```
-他も同様
-
-## その他
-- 現時点では pip で公開する予定はなし，あくまで個人用
 
 ## Reference
 - https://ja.wikipedia.org/wiki/%E5%8D%98%E7%B2%BE%E5%BA%A6%E6%B5%AE%E5%8B%95%E5%B0%8F%E6%95%B0%E7%82%B9%E6%95%B0
