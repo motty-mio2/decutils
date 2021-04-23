@@ -13,7 +13,7 @@ def hex2float(hexnum: str) -> float:
 
 
 def float2binary(fltnum: float, sep: str = "None") -> str:
-    binary: str = (bin(int(float2hex(fltnum), 16))[2:]).zfill(32)
+    binary: str = bin(struct.unpack(">I", struct.pack(">f", fltnum))[0])[2:].zfill(32)
     if sep == "mean":
         return f"{binary[0]}_{binary[1:9]}_{binary[9:]}"
     elif sep == "length":
