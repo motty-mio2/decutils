@@ -1,5 +1,9 @@
+# tool
 *.code-workspace
 *.vscode
+.venv/
+test/
 
+#P ython
 __pycache__
 *.egg-info
