@@ -27,6 +27,8 @@ pip install -U git+https://github.com/motty-mio2/decutils.git@release
   - 32bit の16進数を 単精度浮動小数点数に変換する
   - 引数 (hex)
     - hex : 32bit の 16 進数
+- float2fix
+  - 正負記号 + Absolute Number : Verilogに直書きすると2の補数になる
 
 ```python
 import decutils as du
