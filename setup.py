@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="decutils",
-    version="0.9.1",
+    version="1.0.0",
     description="utility for deciminals",
     long_description="",
     author="mio2",
