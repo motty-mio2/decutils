@@ -76,7 +76,7 @@ def float2fix(x: float, IL: int, FL: int, header: bool = False, complement: bool
         # y = "0" + format(x, f"0>{IL + FL - 1}b") if x >= 0 else format(x & (2 ** (IL + FL) - 1), f"1>{IL+FL}b")
         y = f"{expression_length}'b" + y if header else y  # header
     else:  # Absolute
-        y = format(abs(x), f"0{IL + FL}b")
+        y = format(abs(shifted_x), f"0{IL + FL}b")
         if header:
             if x <= 0:
                 y = f"-{expression_length}'b" + y
