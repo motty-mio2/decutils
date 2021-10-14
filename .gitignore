@@ -3,6 +3,7 @@
 *.vscode
 .venv/
 test/
+poetry.lock
 
 #P ython
 __pycache__
